@@ -68,7 +68,10 @@ mutation {
     name
     genre
     author {
-      name
+      name 
+      books {
+        name
+      }
     }
   }
 }
